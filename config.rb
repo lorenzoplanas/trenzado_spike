@@ -13,16 +13,5 @@ module Qindio
                               encoding: "unicode",
                               pool:     30
                             }
-    S3_ACCESS_KEY_ID      = "1993XXSMV6W101BCWA02"
-    S3_SECRET_ACCESS_KEY  = "dhR7gfVQzcAKUZv25/GfjVMP57/z58mfkjOEtVG2"
-    S3_BUCKET             = "qindio"
-    S3_ACCESS_POLICY      = :private 
-    MOUNT_POINTS          = %w{
-                              assets audits checklists companies consequences
-                              controls courses documents families improvements 
-                              incidents people problems projects roles scopes
-                              scores services statements threats users
-                              vulnerabilities 
-                            }
   end
 end
